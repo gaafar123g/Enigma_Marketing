@@ -1,12 +1,7 @@
-﻿/*------------------------------------------------------------------
-    IMPORT FONTS
--------------------------------------------------------------------*/
+﻿
 
 @import url('https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,900');
 
-/*------------------------------------------------------------------
-    IMPORT FILES   
--------------------------------------------------------------------*/
 
 @import url(animate.css);
 @import url(font-awesome.min.css);
@@ -14,9 +9,7 @@
 @import url(responsiveslides.css);
 @import url(owl.carousel.min.css);
 @import url(flaticon.css);
-/*------------------------------------------------------------------
-    SKELETON
--------------------------------------------------------------------*/
+
 body {
     color: #666666;
     font-size: 15px;
@@ -153,9 +146,9 @@ button:focus {
 }
 
 
-/*------------------------------------------------------------------
+/*---- 
     LOADER 
--------------------------------------------------------------------*/
+                 ----*/
 
 #preloader {
     width: 100%;
@@ -178,11 +171,7 @@ button:focus {
     flex-wrap: wrap;
     width: 258px;
     height: 229px;
-    /*margin-left: 24px*/
 }
-
-
-
 
 
 #scroll-to-top {
@@ -203,9 +192,9 @@ button:focus {
     padding: 0;
 }
 
-/*------------------------------------------------------------------
+/*---
     HEADER
--------------------------------------------------------------------*/
+             ---*/
 
 .main-top {
     background: #12557f;
@@ -574,7 +563,6 @@ button:focus {
         left: -100%;
         width: 200%;
         height: 100%;
-        background: url(../images/wave.svg) repeat-x center center;
         background-size: 50% auto;
     }
 
@@ -936,9 +924,9 @@ button:focus {
                 color: #ffffff;
             }
 
-/*------------------------------------------------------------------
+/*--------
     Appointment
--------------------------------------------------------------------*/
+                 ---*/
 
 .appointment-main {
     padding: 70px 0px;
@@ -1146,9 +1134,9 @@ button:focus {
 }
 
 
-/*------------------------------------------------------------------
+/*-----
     Team
--------------------------------------------------------------------*/
+                 ----*/
 
 .team-box {
     padding: 70px 0px;
@@ -1160,20 +1148,7 @@ button:focus {
     position: relative;
     z-index: 1;
 }
-    /*.our-team:before,
-.our-team:after{
-    content: "";
-    width: 130px;
-    height: 130px;
-    background: #12557f;
-    position: absolute;
-	border-radius: 50%;
-    z-index: -1;
-}
-.our-team:before{
-    top: 0px;
-    left: 0;
-}*/
+   
     .our-team:after {
         bottom: 0px;
         right: 0;
@@ -1297,7 +1272,7 @@ button:focus {
 /*------------------------------------------------------------------
     Blog
 -------------------------------------------------------------------*/
-
+/*
 .blog-box {
     padding: 70px 0px;
     background-color: #f2f3f5;
@@ -1373,7 +1348,7 @@ button:focus {
 .blog-inner h2 {
     margin-top: 20px;
 }
-
+*/
 
 /*------------------------------------------------------------------
     Contact
@@ -1598,7 +1573,7 @@ select.form-control:not([size]):not([multiple]) {
   
   }
   
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* Add a background color  */
   .active, .accordion:hover {
 	  background: #3da399;
 	  color: #000;
@@ -1606,7 +1581,7 @@ select.form-control:not([size]):not([multiple]) {
   
   }
   
-  /* Style the accordion panel. Note: hidden by default */
+  /* Style the accordion  */
   .panel {
 	padding: 0 18px;
 	background-color: white;
@@ -1623,12 +1598,10 @@ select.form-control:not([size]):not([multiple]) {
             animation: swing ease-in-out 1s infinite alternate;
             transform-origin: center -20px;
             float: left;
-            /*transition: all 0.3s ease-in-out 0s;*/
         }
 
 
             .swing img {
-                /*border: 3px solid #f8f8f8;*/
                 display: block;
             }
 
@@ -1720,7 +1693,6 @@ select.form-control:not([size]):not([multiple]) {
             color: black;
          }
          .price{
-            background: url("images/img price/2.jpg");
             background-size: cover;
             text-align: right;
             min-height: 480px;
