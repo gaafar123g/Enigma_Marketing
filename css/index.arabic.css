@@ -1267,113 +1267,22 @@ button:focus {
 }
 
 
-
-
-/*------------------------------------------------------------------
-    Blog
--------------------------------------------------------------------*/
-/*
-.blog-box {
-    padding: 70px 0px;
-    background-color: #f2f3f5;
-}
-
-.blog-inner {
-    background: #ffffff;
-    text-align: center;
-    margin-bottom: 30px;
-    border: 10px solid #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,.1);
-}
-
-.blog-img {
-    overflow: hidden;
-}
-
-    .blog-img img {
-        transition: all 0.9s ease 0s;
-    }
-
-.blog-inner:hover .blog-img img {
-    -moz-transform: scale(1.5) rotate(-10deg);
-    -webkit-transform: scale(1.5) rotate(-10deg);
-    -ms-transform: scale(1.5) rotate(-10deg);
-    -o-transform: scale(1.5) rotate(-10deg);
-    transform: scale(1.5) rotate(-10deg);
-}
-
-.blog-inner a {
-    border-radius: 2px;
-    transition: .2s;
-    letter-spacing: 1px;
-    padding: 10px 18px;
-    background: #ffffff;
-    color: #12557f;
-    font-size: 14px;
-    display: inline-block;
-    line-height: 24px;
-}
-
-    .blog-inner a.new-btn-d.br-2 {
-        border: 2px solid #12557f;
-    }
-
-    .blog-inner a.new-btn-d::before {
-        background: rgba(18,85,127,0.2);
-    }
-
-
-    .blog-inner a:hover {
-        color: #ffffff;
-    }
-
-.blog-inner .item-meta {
-    background: #12557f;
-}
-
-    .blog-inner .item-meta a {
-        background: #12557f;
-        color: #ffffff;
-        display: inline-block;
-        border: none;
-    }
-
-    .blog-inner .item-meta span {
-        color: #ffffff;
-        background: #00cb86;
-        display: inline-block;
-        padding: 5px;
-    }
-
-.blog-inner h2 {
-    margin-top: 20px;
-}
-*/
-
-/*------------------------------------------------------------------
-    Contact
--------------------------------------------------------------------*/
-
- 
-
+/*--    Contact        --*/
 .left-contact {
     margin-top: 60px;
 }
-
     .left-contact h2 {
         font-size: 38px;
         font-weight: 700;
         padding-bottom: 30px;
         text-align: center;
     }
-
 .cont-line {
     overflow: hidden;
     margin-bottom: 30px;
     width: 33.33%;
     float: left;
 }
-
 .icon-b {
     width: 80px;
     height: 80px;
@@ -1385,32 +1294,26 @@ button:focus {
     color: #00cb86;
     border-radius: 50%;
 }
-
 .dit-right h4 {
     font-size: 18px;
     color: #333333;
     font-weight: 600;
     padding-bottom: 0;
 }
-
 .dit-right {
     padding-right: 14px;
 }
-
     .dit-right p {
         font-size: 16px;
         margin: 0px;
     }
-
     .dit-right a {
         font-size: 16px;
         color: #333333
     }
-
         .dit-right a:hover {
             color: #00cb86;
         }
-
       .contact-block .form-group .form-control {
         height: 45px;
         font-size: 16px;
@@ -1424,12 +1327,10 @@ button:focus {
         -ms-border-radius: 4px;
         border-radius: 4px;
     }
-
     .contact-block .form-group textarea.form-control {
         height: 150px;
         padding-top: 15px;
     }
-
 .submit-button .btn-common {
     background-color: #00cb86;
     height: 45px;
@@ -1448,57 +1349,42 @@ button:focus {
     -ms-transition: all 0.3s;
     transition: all 0.3s;
 }
-
     .submit-button .btn-common:hover {
         background-color: #528780;
     }
-
 .custom-select {
     height: 45px;
     font-size: 16px;
 }
-
 select.form-control:not([size]):not([multiple]) {
     height: calc(45px + 2px);
 }
-
 .help-block ul li {
     color: red;
 }
-
 .footer-box {
     background: #292f35;
     padding: 20px 0;
 }
-
     .footer-box .footer-company-name {
         text-align: center;
         margin: 0px;
         color: #ffffff;
     }
-
         .footer-box .footer-company-name a {
             color: #00cb86;
         }
-
             .footer-box .footer-company-name a:hover {
                 color: #000000;
             }
 
-
-
-
-/*------------------------------------------------------------------
-    Subscribe
--------------------------------------------------------------------*/
-
-.subscribe-box {
+/*-- Subscribe --*/
+    .subscribe-box {
     padding: 70px 0px;
     background: url(../images/footer-bg.jpg) no-repeat center;
     background-size: cover;
     position: relative;
 }
-
     .subscribe-box::before {
         content: "";
         background: rgba(0,0,0,0.8);
@@ -1508,30 +1394,25 @@ select.form-control:not([size]):not([multiple]) {
         top: 0px;
         position: absolute;
     }
-
 .subscribe-inner {
     max-width: 500px;
     width: 100%;
     margin: 0 auto;
 }
-
     .subscribe-inner h2 {
         font-size: 28px;
         font-weight: 600;
         color: #ffffff;
     }
-
     .subscribe-inner p {
         color: #cccccc;
     }
-
     .subscribe-inner .form-group .form-control-1 {
         width: 100%;
         padding: 12px 15px;
         border-radius: 0px;
         border: none;
     }
-
     .subscribe-inner .form-group button {
         letter-spacing: 1px;
         border-radius: 2px;
@@ -1545,19 +1426,15 @@ select.form-control:not([size]):not([multiple]) {
         border: none;
         cursor: pointer;
     }
-
         .subscribe-inner .form-group button.new-btn-d.br-2 {
             border: 2px solid #12557f;
         }
-
         .subscribe-inner .form-group button.new-btn-d::before {
             background: rgba(18,85,127,0.2);
         }
-
         .subscribe-inner .form-group button:hover {
             color: #ffffff;
         }
-  /* Style the buttons that are used to open and close the accordion panel */
   .accordion {
 	background-color: #1b5354;
 	color: #fff;
@@ -1570,18 +1447,12 @@ select.form-control:not([size]):not([multiple]) {
 	transition: 0.4s;
 	font-size: large;
 	font-size: 20px;
-  
   }
-  
-  /* Add a background color  */
   .active, .accordion:hover {
 	  background: #3da399;
 	  color: #000;
 	  transition: 0.4s;
-  
   }
-  
-  /* Style the accordion  */
   .panel {
 	padding: 0 18px;
 	background-color: white;
@@ -1599,16 +1470,12 @@ select.form-control:not([size]):not([multiple]) {
             transform-origin: center -20px;
             float: left;
         }
-
-
             .swing img {
                 display: block;
             }
-
             .swing:hover {
                 margin-top: -17px
             }
-
             .swing:after {
                 content: '';
                 position: absolute;
@@ -1623,47 +1490,37 @@ select.form-control:not([size]):not([multiple]) {
                 transform: rotate(45deg);
                 background: none
             }
-
         @keyframes swing {
             0% {
                 transform: rotate(3deg)
             }
-
             100% {
                 transform: rotate(-3deg)
             }
         }
-          /* width */
           ::-webkit-scrollbar {
             width: 15px;
         }
-
-        /* Track */
         ::-webkit-scrollbar-track {
             box-shadow: inset 0 0 5px grey;
             border-radius: 10px;
         }
-
-        /* Handle */
         ::-webkit-scrollbar-thumb {
             background: #1b5354;
             border-radius: 5px;
         }
-        /*   ......................*/
+        /*          */
         ul {
             direction: rtl;
         }
-
         li {
-            direction: ltr; /* Reset to default */
+            direction: ltr; 
             display: inline-block;
         }
-
         @media (max-width: 600px) {
             ul {
                 direction: ltr;
             }
-
             li {
                 display: block;
             }

@@ -1,12 +1,6 @@
 * {
   box-sizing: border-box; }
-/*!
- * animate.css -http://daneden.me/animate
- * Version - 3.5.1
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
- *
- * Copyright (c) 2016 Daniel Eden
- */
+
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -86,8 +80,6 @@
 .flash {
   -webkit-animation-name: flash;
   animation-name: flash; }
-
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 @-webkit-keyframes pulse {
   from {
     -webkit-transform: scale3d(1, 1, 1);
@@ -303,7 +295,6 @@
   -webkit-animation-name: tada;
   animation-name: tada; }
 
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 @-webkit-keyframes wobble {
   from {
     -webkit-transform: none;
@@ -1758,7 +1749,6 @@
   -webkit-animation-name: rollIn;
   animation-name: rollIn; }
 
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 @-webkit-keyframes rollOut {
   from {
     opacity: 1; }
@@ -2412,7 +2402,6 @@
 	left: 12px; 
 }
 
-/* Smart Phones Screen */
 @media (max-width: 767px) {
   .timeLine .row .item {
     margin-bottom: 4%; }
@@ -2426,7 +2415,6 @@
       display: none; }
     .timeLine .row .pull-right:after {
       display: none; } }
-/* small Screen */
 @media (min-width: 768px) and (max-width: 991px) {
   .timeLine .row .item {
     margin-bottom: 4%; }
@@ -2441,4 +2429,3 @@
     .timeLine .row .pull-right:after {
       display: none; } }
 
-/*# sourceMappingURL=style.css.map */

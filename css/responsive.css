@@ -1,5 +1,4 @@
-/* only small desktops */
-/* tablets */
+
 @media (min-width: 992px) and (max-width: 1190px) {
 	.countdown{
 		height: 285px;
@@ -14,7 +13,6 @@
 		padding: 0px 15px;
 	}
 }
-/* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
 	.top-header .navbar .navbar-collapse ul li a{
 		padding: 5px 15px;
@@ -64,7 +62,6 @@
 	}
 }
 
-/* mobile or only mobile */
 @media (max-width: 767px) {
 	.navbar-brand{
 		margin-left: 10px;
