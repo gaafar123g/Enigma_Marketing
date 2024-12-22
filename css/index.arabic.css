@@ -48,7 +48,7 @@ h6 {
 
 h1 {
     font-size: 24px;
-    color: #1b5354;
+    color: #000;
 }
 
 
@@ -187,9 +187,9 @@ button:focus {
     letter-spacing: 1px;
     text-align: center;
     line-height: 40px;
-    background: #1b5354;
     color: #ffffff;
     padding: 0;
+    background: #fca901;
 }
 
 /*---
@@ -197,7 +197,7 @@ button:focus {
              ---*/
 
 .main-top {
-    background: #12557f;
+    background: #bb8008;
 }
 
 .left-top a {
@@ -246,11 +246,11 @@ button:focus {
     .new-btn-d::before {
         background: rgba(255,255,255,0.2);
     }
-
+/*
     .new-btn-d::after {
-        background: #00cb86;
+        background: #000;
     }
-
+*/
     .new-btn-d:hover::after {
         -webkit-transition-delay: 0.175s;
         transition-delay: 0.175s;
@@ -270,12 +270,12 @@ button:focus {
         padding: 12px 30px;
         border: 2px solid #ffffff;
     }
-
+/*
         .mail-b a:hover {
             color: #00cb86;
             border: 2px solid #00cb86;
         }
-
+*/
 .right-top {
     float: right;
 }
@@ -295,8 +295,8 @@ button:focus {
             }
 
                 .right-top ul li a:hover {
-                    background: #00cb86;
-                    color: #ffffff;
+                    background: #f5f112;
+                    color: #000;
                 }
 
 .wel-nots {
@@ -314,11 +314,9 @@ button:focus {
 
 .top-header .navbar {
     padding: 5px 0px;
-    background: #1b5354
 }
 
 .top-header {
-    background-color: cadetblue;
     position: relative;
     top: 0px;
     left: 0px;
@@ -332,19 +330,16 @@ button:focus {
         font-size: 20px;
         padding: 5px 8px;
         position: relative;
-        font-weight: 350;
-        color: #fff;
         font-family: system-ui;
+
     }
 
 
         /*  #00cb86*/
 
         .top-header .navbar .navbar-collapse ul li a.active {
-            /*background-color: #936428;*/
-            color: #000;
             border-radius: 12px;
-            color: #ffffff;
+            color: #000;
             -webkit-transition: all 0.5s ease-in-out 0s;
             -moz-transition: all 0.5s ease-in-out 0s;
             -ms-transition: all 0.5s ease-in-out 0s;
@@ -362,8 +357,7 @@ button:focus {
                 left: 0;
                 right: 0;
                 margin: auto;
-                /*background:#fff;*/
-                background-image: repeating-linear-gradient(black,#1b5354, #ffffff);
+                background-image: repeating-linear-gradient(black,#f5f112, #ffffff);
                 border: 1px solid #936428;
                 border-radius: 10px;
                 transition: ease all 0.3s;
@@ -380,8 +374,8 @@ button:focus {
             }
 
         .top-header .navbar .navbar-collapse ul li a:hover {
-            background-color: black;
-            color: #ffffff;
+            background-color:#bb8008;
+            color: #000;
             border-radius: 14px;
         }
 
@@ -401,7 +395,7 @@ button:focus {
     }
 
 .navbar-toggler {
-    border: 1px solid #57cef8;
+    border: 1px solid #f5f112;
     border-radius: 0;
     margin: 16px 15px;
     padding: 10px 10px;
@@ -432,11 +426,11 @@ button:focus {
         }
 
     .navbar-toggler:hover {
-        border: 1px solid #00cb86;
+        border: 1px solid #fca901   ;
     }
 
         .navbar-toggler:hover span {
-            background: #00cb86;
+            background: #bb8008;
         }
 
 
@@ -574,19 +568,16 @@ button:focus {
 .title-box {
     text-align: center;
     margin-bottom: 30px;
-    background: #fff;
 }
 
     .title-box h2 {
-        font-size: 38px;
-        font-family: 'Catamaran', sans-serif;
-        color: rgb(29, 98, 100);
-        font-weight: 500;
+        font-size: 42px;
+        color: #fca901   ;
         position: relative;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         margin-bottom: 15px;
-        text-shadow: 3px 2px 4px black;
-        box-shadow: 0 5px 5px 0 cadetblue;
+        text-shadow: 0px 1px 2px black;
+        box-shadow: 0 1px 3px 0 #f5f112;
     }
 
         .title-box h2::after {
@@ -602,7 +593,7 @@ button:focus {
         }
 
         .title-box h2 span {
-            color: #00cb86;
+            color: yellow;
             text-decoration: underline;
         }
 
@@ -700,23 +691,20 @@ button:focus {
     letter-spacing: 1px;
     padding: 10px 18px;
     background: #ffffff;
-    color: #12557f;
+    color: #000;
     display: inline-block;
     line-height: 24px;
 }
 
     .about-main-info a.new-btn-d.br-2 {
-        border: 2px solid #12557f;
+        border: 2px solid #fca901;
     }
 
     .about-main-info a.new-btn-d::before {
         background: rgba(18,85,127,0.2);
     }
 
-    .about-main-info a:hover {
-        color: #ffffff;
-        background: #1b5354;
-    }
+    
 
 .hvr-radial-out {
     display: inline-block;
@@ -969,7 +957,7 @@ button:focus {
         line-height: 24px;
         cursor: pointer;
     }
-
+/*
         .well-block form .form-group button.new-btn-d.br-2 {
             border: 2px solid #12557f;
         }
@@ -977,7 +965,7 @@ button:focus {
         .well-block form .form-group button.new-btn-d::before {
             background: #1b5354;
         }
-
+*/
 .feature-block .feature-title {
     font-size: 20px;
 }
@@ -1019,7 +1007,7 @@ button:focus {
 
     .box-gallery:hover .box-content {
         background-color: rgba(255, 242, 242, 0.8);
-        box-shadow: 5px 5px 10px #1b5354;
+        box-shadow: 5px 5px 10px #f5f112;
     }
 
     .box-gallery .box-content:before,
@@ -1034,15 +1022,15 @@ button:focus {
     }
 
     .box-gallery .box-content:before {
-        border-left: 2px solid #00cb86;
-        border-top: 2px solid #00cb86;
+        border-left: 2px solid #f5f112;
+        border-top: 2px solid #f5f112;
         top: 19px;
         left: 19px;
     }
 
     .box-gallery .box-content:after {
-        border-bottom: 2px solid #00cb86;
-        border-right: 2px solid #00cb86;
+        border-bottom: 2px solid #f5f112;
+        border-right: 2px solid #f5f112;
         bottom: 19px;
         right: 19px;
     }
@@ -1117,13 +1105,13 @@ button:focus {
             border-radius: 50%;
             font-size: 18px;
             color: #000;
-            border: 2px solid #12557f;
+            border: 2px solid #f5f112;
             margin-right: 5px;
             transition: all 0.3s ease-in-out 0s;
         }
 
             .box-gallery .icon li a:hover {
-                background: #00cb86;
+                background: #f5f112;
                 color: #fff;
             }
 
@@ -1158,7 +1146,7 @@ button:focus {
     .our-team .pic {
         margin: 8px;
         position: relative;
-        border: 2px solid #0b7f9c;
+        border: 2px solid #f5f112;
         transition: all 0.5s ease 0s;
         border-radius: 13px;
         height: 280px;
@@ -1167,7 +1155,7 @@ button:focus {
     }
 
     .our-team:hover .pic {
-        border-color: #12557f;
+        border-color: #bb8008;
         color: #fff;
         border-radius: 11px;
 
@@ -1177,7 +1165,7 @@ button:focus {
         width: 100%;
         height: 0;
         color: #fff;
-        background: #1b5354; /*#*/
+        background: #f5f112; /*#*/
         position: absolute;
         bottom: 0;
         left: 0;
@@ -1221,14 +1209,14 @@ button:focus {
 
     .our-team .post {
         font-size: 14px;
-        color: #fff;
+        color: #000;
         line-height: 26px;
         text-transform: capitalize;
     }
 
 .post:hover {
     background: #fff;
-    color: #1b5354;
+    color: #000;
     border-radius: 15px;
 }
 
@@ -1248,7 +1236,7 @@ button:focus {
             height: 35px;
             line-height: 35px;
             border-radius: 50%;
-            border: 1px solid #fff;
+            border: 1px solid #bb8008;
             font-size: 18px;
             color: #fff;
             margin: 0 7px;
@@ -1257,7 +1245,7 @@ button:focus {
 
             .our-team .social li a:hover {
 
-                color: #12557f;
+                color: #bb8008;
             }
 
 @media only screen and (max-width: 990px) {
@@ -1436,7 +1424,7 @@ select.form-control:not([size]):not([multiple]) {
             color: #ffffff;
         }
   .accordion {
-	background-color: #1b5354;
+	background-color: #bb8008   ;
 	color: #fff;
 	cursor: pointer;
 	padding: 18px;
@@ -1449,19 +1437,19 @@ select.form-control:not([size]):not([multiple]) {
 	font-size: 20px;
   }
   .active, .accordion:hover {
-	  background: #3da399;
+	  background: #f5f112;
 	  color: #000;
 	  transition: 0.4s;
   }
   .panel {
 	padding: 0 18px;
-	background-color: white;
+	background-color: #fff;
 	display: none;
 	overflow: hidden;
 	}
     .panel {
         padding: 0 18px;
-        background-color: white;
+        background-color:#fff;
         display: none;
         overflow: hidden;
         }
@@ -1474,8 +1462,8 @@ select.form-control:not([size]):not([multiple]) {
             border-radius: 10px;
         }
         ::-webkit-scrollbar-thumb {
-            background: #1b5354;
             border-radius: 5px;
+            background: #f5f112;
         }
         /*          */
         ul {
